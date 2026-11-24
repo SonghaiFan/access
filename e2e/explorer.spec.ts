@@ -384,7 +384,7 @@ test("the header links back to the docs", async ({ page }) => {
   await page.goto("/");
   await expect(page.getByRole("link", { name: "Docs" })).toHaveAttribute(
     "href",
-    "http://localhost:3200/en/case-explorer/",
+    "https://cytocausal.songhai.site/en/case-explorer/",
   );
 });
 

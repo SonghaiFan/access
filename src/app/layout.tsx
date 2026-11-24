@@ -4,7 +4,7 @@ import "@cytocausal/react/styles.css";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Causal Discovery for Event Flows Playground",
+  title: "ACCESS Explorer | Abstract Causal Events",
   description: "Explore a causal graph of abstract everyday events from the ACCESS benchmark.",
 };
 

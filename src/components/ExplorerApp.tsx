@@ -24,7 +24,7 @@ import type { ZoomMode } from "@cytocausal/cytoscape";
 const LOOP_SEARCH = { maxLength: 4, limit: 30 };
 const LOOP_SETTINGS = { ...LOOP_SEARCH, title: "Event cycles", description: "Sequences of events that lead back to the starting event." };
 const GRAPH_OPTIONS = { readableLabels: true, focusZoom: 2 };
-const DOCS_URL = `${process.env.NEXT_PUBLIC_DOCS_URL ?? "http://localhost:3200"}/en/case-explorer/`;
+const DOCS_URL = `${process.env.NEXT_PUBLIC_DOCS_URL ?? "https://cytocausal.songhai.site"}/en/case-explorer/`;
 
 const labels = {
   search: "Search events and descriptions…",
@@ -155,7 +155,7 @@ function Explorer({ zoom, onZoomChange }: { zoom: ZoomMode; onZoomChange: (mode:
 
       <aside className="cc-sidebar">
         <SidebarHeader
-          title="Causal Explorer"
+          title="ACCESS Explorer"
           subtitle={
             <span role="status">
               {visibleNodes.length} nodes, {visibleEdges.length} edges
